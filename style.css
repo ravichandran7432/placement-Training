@@ -1,0 +1,33 @@
+h1,ol,ul{
+    color: black;
+    background-color:aqua;
+}
+a{
+    text-decoration: none;
+}
+table,th,td,tr{
+    border:2px solid black;
+    width: 90vw;
+    border-collapse: collapse;
+
+}
+marquee{
+    background-color: lightgreen;
+    padding: 10px;
+    font-size:20px;
+}
+p,h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    
+}
+#fname,#lname{
+    text-align: center;
+}
+
+
