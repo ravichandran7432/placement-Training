@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Student</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="Images/earth.jpg" type="images/icon">
+    </head>
+<body>
+    <h1>Student Registration Forms</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sit.</p>
+    <ol><li><h3><b>Fruits</b></h3></li></ol>
+    <ul>
+        <li>orange</li>
+        <li>apple</li>
+        <li>pineapple</li>
+        <li>grapes</li>
+    </ul>
+<a href="https://github.com/ravichandran7432" target="_blank">github</a>
+<table>
+<tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Department</th>
+</tr>
+<tr>
+    <td>Ravi</td>
+    <td>20</td>
+    <td>Cse</td>
+</tr>
+<tr>
+    <td>meithun</td>
+    <td>20</td>
+    <td>IT</td>
+</tr>
+<tr>
+    <td>Dinesh</td>
+    <td>20</td>
+    <td>Mech</td>
+</tr>
+</table>
+<p>he is really have a <strong>Strong heart<mark> for everyone</mark></strong></p>
+<p><marquee ><strong>Sorry! For The Intrusion</strong></marquee></p>
+<form>
+    <div class="form">
+        <div>
+    <label for="fname">First Name :</label><br>
+    <input type="text" id="fname" placeholder="First Name"><br><br></div>
+    <div>
+    <label for="lname">Last Name :</label><br>
+    <input type="text" id="lname" placeholder="Last Name"><br><br>
+    </div>
+    <button>Submit</button><button style="margin-left: 60px;">Cancel</button>
+</div>
+</form>
+
+</body>
+</html>
