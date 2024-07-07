@@ -1,0 +1,15 @@
+.chessboard {
+     border-spacing: 0; border-collapse: collapse;
+     }
+.chessboard th { 
+    padding: .5em;
+ }
+.chessboard td { 
+    border: 1px solid; width: 2em; height: 2em; 
+}
+.chessboard .w {
+     background: #eee; 
+}
+.chessboard .b {
+     background: #000; 
+}
