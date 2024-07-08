@@ -1,0 +1,20 @@
+body{
+    border: 20px solid violet;
+    margin-left: 10cm;
+    margin-right: 10cm;
+    border-width: 1cm;
+}
+label{
+    display: flex;
+    flex-direction:initial;
+    justify-content:center;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+button{
+    height: 1cm;
+    width: 8cm;
+    background-color: purple;
+}
