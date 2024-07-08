@@ -1,0 +1,24 @@
+.items{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;  
+    border:2px solid black;
+    text-align: center;
+}
+button{
+    background-color: green;
+}
+.item1{
+    border: 2px solid black;
+    
+}
+.item2{
+    border: 2px solid black;
+}
+.item3{
+    border: 2px solid black;
+}
+.item4{
+    border: 2px solid black;
+}
