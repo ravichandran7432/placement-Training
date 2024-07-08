@@ -1,0 +1,72 @@
+.n1{
+    text-align: center;
+    color: blue;
+    border: solid lightblue;
+    text-decoration:normal;
+    letter-spacing:10px;
+    word-spacing: 20px;
+    padding: 25px;
+}
+.menu{
+    text-align: left;
+    text-shadow: 1px 1px 1px;
+    position:fixed;
+}
+p{
+    font-size:20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 10000px;
+    margin: 50px;
+}
+.css{
+    background-color:rgb(0,64,255);
+    height: 150px;
+    width:150px;
+    margin:10px;
+    position:relative;
+    left: 10px;
+    top: 10px;
+}
+.java{
+    background-color:rgb(192, 10, 10);
+    height: 150px;
+    width:150px;
+    margin:10px;
+    position:static;
+}
+.python{
+    background-color:violet;
+    height: 150px;
+    width:150px;
+    margin:10px;
+    position:absolute;
+    bottom:0px;
+    right: 100px;
+}
+.n1,p{
+    background-color: blanchedalmond;
+}
+table,td,tr{
+    column-gap:3px;
+    border: 2px solid black;
+}
+input:hover{
+background-color:rgb(212, 13, 13);
+text-align: center;
+border-color:2px solid green;
+}
+input{
+    border-color: rgb(68, 0, 255);
+}
+p::first-letter{
+    color: red;
+    font-size: 200%;
+    font-weight: bold;
+}
+p::selection {
+    color: red;
+    background: yellow;
+  }
