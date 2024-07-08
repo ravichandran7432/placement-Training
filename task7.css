@@ -1,0 +1,23 @@
+header{
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.i1{
+    border: 2px solid white;
+    background-color: white;
+}
+.i2{
+    border: 2px solid white;
+    background-color: white;
+}
+p{
+    border: 2px solid white;
+    background-color: white;
+}
+body{
+    background-color: yellow;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
