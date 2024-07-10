@@ -1,0 +1,59 @@
+.html{
+    width:100px;
+    height: 100px;
+    overflow:visible;
+    background-color: yellow;
+    border: 2px solid orange;
+}
+.css{
+    width:100px;
+    height: 100px;
+    overflow:scroll;
+    background-color: yellow;
+    border: 2px solid orange;
+}
+.html{
+    transform: rotateX(80deg);
+    transform: rotateY(90deg);
+    transform: rotateZ(60deg);
+  }
+  @keyframes h{
+    0%{
+        background-color: blue;
+        left: 100px;
+        rotate:0deg;
+    }
+    25%{
+        background-color: rgb(0, 255, 42);
+        left: 200px;
+        rotate:90deg;
+    }
+    50%{
+        background-color: rgb(0, 238, 255);
+        top: 300px;
+        rotate:180deg;
+    }
+    75%{
+        background-color: rgb(255, 51, 0);
+        left:200px;
+        rotate:270deg;
+    }
+    100%{
+        background-color: rgb(255, 0, 179);
+        left:400px;
+        rotate:360deg;
+    }
+  }
+  .h{
+    width:100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid orange;
+    transform: transform(20px,200px);
+    animation-name: h;
+    animation-duration: 5s;
+    animation-iteration-count:10;
+    position: relative;
+    overflow: scroll;
+    margin: 100px;
+}
